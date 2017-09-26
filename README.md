@@ -10,17 +10,9 @@ Simple docker image based on alpine3.6 with docker client (`17.06.2-ce`) install
     - move docker client binary
     - remove curl & cleanup artifacts
 
-<table>
-    <tr>
-        <td>**ENTRYPOINT**</td>
-        <td>`docker`</td>
-    </tr>
-    <tr>
-        <td>**CMD**</td>
-        <td>`-v`</td>
-    </tr>
-</table>
-
+| **ENTRYPOINT** | **CMD** |
+|:---:|:---:|
+| `docker` | `-v` |
 
 ## How to use (running docker instructions)
 Since this image is designed to work with the host docker engine, you need to pass the socket.
@@ -36,4 +28,4 @@ Example building a new image with another docker client :
     # will output : Docker version 17.03.1-ce, build c6d412e
 
 ## Docker releases listing
-https://download.docker.com/linux/static/stable/x86_64/
+[https://download.docker.com/linux/static/stable/x86_64/](https://download.docker.com/linux/static/stable/x86_64/)
