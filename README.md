@@ -8,7 +8,7 @@ Simple docker image based on alpine3.6 with docker client (`17.06.2-ce`) install
     - fetch docker binaries archive
     - unzip archive
     - move docker client binary
-    - remove curl & cleanup artifacts
+    - remove curl and cleanup artifacts
 
 | **ENTRYPOINT** | **CMD** |
 |:---:|:---:|
@@ -29,3 +29,6 @@ Example building a new image with another docker client :
 
 ## Docker releases listing
 [https://download.docker.com/linux/static/stable/x86_64/](https://download.docker.com/linux/static/stable/x86_64/)
+
+## Related work
+[cethy/alpine-docker-compose](https://github.com/Cethy/alpine-docker-compose)
